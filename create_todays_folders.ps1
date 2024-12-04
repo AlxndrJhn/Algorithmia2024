@@ -11,10 +11,9 @@ $todayAsPaddedNum = $todayAsNumNoLeadingZero.PadLeft(2, '0')
 # copy template to new folder
 Copy-Item -r template "$todayAsPaddedNum"
 
-# fetch input from https://adventofcode.com/2024/day/9/input
-code "$todayAsPaddedNum/input2.txt"
-code "$todayAsPaddedNum/day.py"
 code "$todayAsPaddedNum/input.txt"
+code "$todayAsPaddedNum/day.py"
+code "$todayAsPaddedNum/input_example.txt"
 
 # open chrome browser
 Start-Process chrome "https://everybody.codes/event/2024/quests/$todayAsNumNoLeadingZero"

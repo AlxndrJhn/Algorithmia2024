@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "2023-12-05-advent"
+name = "algorithmia"
 version = "0.1.0"
 description = ""
 authors = ["Alexander Jahn <jahn.alexander@gmail.com>"]
